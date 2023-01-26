@@ -1,33 +1,41 @@
-body {}
+body {
 
+}
+
+/* Estilos contenedor principal de toda la pagina */
 .container-main {
     background-repeat: no-repeat;
     height: 100vh;
     background-image: url(../img/bowl.jpg);
     background-size: cover;
+    opacity: 0.9;
 }
 
+/* Estilos de la barra de navegacion de arriba*/
 .navbar {
     background-color: transparent;
     position: fixed;
     font-size: larger;
 }
-
+/* Estilos de la barra desplegada en movil */
 .navbar-nav {
     text-align: center;
-
+    font-size: large;
+    font-weight: 100;
 }
 
+/* Estilos del logo de la pagina (superior izquierda) */
 .imgLogo {
     margin-left: 20px;
     width: 100px;
     height: 50px;
 }
 
-hr {
-    margin: 0;
-}
 
+
+/* MEDIA QUERIES
+Para Responsive
+*/
 @media (max-width: 360px){
 
     .container-main {
