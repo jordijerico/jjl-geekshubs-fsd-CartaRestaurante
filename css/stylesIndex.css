@@ -1,13 +1,16 @@
 body {}
 
 .container-main {
-    background-color: antiquewhite;
-    height: 150vh;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url(../img/bowl.jpg);
+    background-size: cover;
 }
 
 .navbar {
-    background-color: rgb(255, 255, 255);
+    background-color: transparent;
     position: fixed;
+    font-size: larger;
 }
 
 .navbar-nav {
@@ -16,6 +19,7 @@ body {}
 }
 
 .imgLogo {
+    margin-left: 20px;
     width: 100px;
     height: 50px;
 }
@@ -23,3 +27,23 @@ body {}
 hr {
     margin: 0;
 }
+
+@media (max-width: 360px){
+
+    .container-main {
+        background-image: url(../img/bowl360px.jpg);
+    }
+}
+
+@media (min-width: 1600px){
+
+    .navbar a {
+        margin-left: 25px;
+    }
+    .imgLogo {
+        margin-left: 0px;
+        width: 150px;
+        height: 70px;
+    }
+}
+
