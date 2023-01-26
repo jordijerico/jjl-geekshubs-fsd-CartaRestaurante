@@ -1,12 +1,25 @@
-body {
-    background-color: aqua;
-}
+body {}
 
-.container-main{
-    background-color:antiquewhite;
+.container-main {
+    background-color: antiquewhite;
     height: 150vh;
 }
 
-.navbar{
-    background-color: green;
+.navbar {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+}
+
+.navbar-nav {
+    text-align: center;
+
+}
+
+.imgLogo {
+    width: 100px;
+    height: 50px;
+}
+
+hr {
+    margin: 0;
 }
