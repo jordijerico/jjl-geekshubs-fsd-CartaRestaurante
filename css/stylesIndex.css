@@ -51,13 +51,16 @@ body {
     font-size: small;
     font-style: italic;
     font-family: Quicksand;
-    color: rgba(255, 255, 255, 0.555);
+    color: rgba(255, 255, 255, 0.384);
 }
 
 .col3 button{
     border: 0;
 }
-
+.col3 p{
+    color: rgba(255, 255, 255, 0.233);
+    margin-bottom: 0;
+}
 /* MEDIA QUERIES Para Responsive */
 @media (max-width: 360px){
 
