@@ -1,9 +1,15 @@
-body {
-
-}
+/* Carga de fuente externa */
 @font-face {
     font-family: Quicksand;
     src: url("../fonts/Quicksand-Light.otf") format("opentype");
+}
+
+/* Paso la fuente a todo el documento */
+html, body{
+    font-family: Quicksand;
+}
+body{
+    
 }
 
 
@@ -23,11 +29,15 @@ body {
     width: 100vw;
     padding-right: 20px;
 }
-/* Estilos de la barra desplegada en movil */
+/* Estilos del navbar desplegada en movil */
 .navbar-nav {
     text-align: center;
     font-size: large;
     font-weight: 100;
+}
+/* Estilos de los links del navbar desplegable */
+.navbar-nav a{
+    margin-top: 15px;
 }
 
 /* Estilos del logo de la pagina (superior izquierda) */
@@ -35,40 +45,49 @@ body {
     width: 100px;
     height: 50px;
 }
+/* Estilos de la primera row (navbar) */
 .row1{
     height: 17vh;
 }
+/* Estilos de la segunda row (Texto descriptivo) */
 .row2{
     height: 33vh;
 }
+/* Estilos de la tercera row (parte inferior pagina) */
 .row3{
     height: 50vh;
     display: flex;
     justify-content: end;
     align-items: flex-end;
 }
+/* Estilos del parrafo de texto descriptivo de la col 2 de la row 2 */
 .col2 p{
     font-size: small;
     font-style: italic;
     font-family: Quicksand;
-    color: rgba(255, 255, 255, 0.384);
+    color: rgba(255, 255, 255, 0.753);
 }
-
+/* Estilos de los botones de redes sociales */
 .col3 button{
     border: 0;
+    font-size: small;
 }
+/* Estilos del texto "Siguenos en redes sociales" */
 .col3 p{
-    color: rgba(255, 255, 255, 0.233);
-    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.753);
+    font-size: small;
+    margin-bottom: 2px
 }
 /* MEDIA QUERIES Para Responsive */
+
+/* Media query para Nexus 5 , 360px */
 @media (max-width: 360px){
 
     .container-main {
         background-image: url(../img/bowl360px.jpg);
     }
 }
-
+/* Media query para PC ordenador >1600px */
 @media (min-width: 1600px){
 
     .navbar a {
