@@ -5,12 +5,12 @@
 }
 
 /* Paso la fuente a todo el documento */
-html, body{
+html,
+body {
     font-family: Quicksand;
 }
-body{
-    
-}
+
+body {}
 
 
 /* Estilos contenedor principal de toda la pagina */
@@ -29,14 +29,16 @@ body{
     width: 100vw;
     padding-right: 20px;
 }
+
 /* Estilos del navbar desplegada en movil */
 .navbar-nav {
     text-align: center;
     font-size: large;
     font-weight: 100;
 }
+
 /* Estilos de los links del navbar desplegable */
-.navbar-nav a{
+.navbar-nav a {
     margin-top: 15px;
 }
 
@@ -45,69 +47,95 @@ body{
     width: 100px;
     height: 50px;
 }
+
 /* Estilos de la primera row (navbar) */
-.row1{
+.row1 {
     height: 17vh;
 }
+
 /* Estilos de la segunda row (Texto descriptivo) */
-.row2{
+.row2 {
     height: 33vh;
 }
+
 /* Estilos de la tercera row (parte inferior pagina) */
-.row3{
+.row3 {
     height: 50vh;
     display: flex;
     justify-content: end;
     align-items: flex-end;
 }
+
 /* Estilos del parrafo de texto descriptivo de la col 2 de la row 2 */
-.col2 p{
+.col2 p {
     font-size: small;
     font-style: italic;
     font-family: Quicksand;
     color: rgba(255, 255, 255, 0.753);
 }
+
 /* Estilos de los botones de redes sociales */
-.col3 button{
+.col3 button {
     border: 0;
     font-size: small;
 }
+
 /* Estilos del texto "Siguenos en redes sociales" */
-.col3 p{
+.col3 p {
     color: rgba(255, 255, 255, 0.753);
     font-size: small;
     margin-bottom: 2px
 }
+
 /* MEDIA QUERIES Para Responsive */
 
 /* Media query para Nexus 5 , 360px */
-@media (max-width: 360px){
+@media (max-width: 360px) {
 
     .container-main {
         background-image: url(../img/bowl360px.jpg);
     }
 }
+
+/* Media query para ampliar un poco el tamaño de la letra conforme 
+se va aumentando la resolucion del dispositivo. 
+Permite un flujo del tamaño de letra mas óptimo del párrafo principal
+*/
+@media (min-width: 768px) {
+
+    .col2 p {
+        font-size: large;
+        font-style: italic;
+        font-family: Quicksand;
+        color: rgba(255, 255, 255, 0.555);
+    }
+}
+
+
 /* Media query para PC ordenador >1600px */
-@media (min-width: 1600px){
+@media (min-width: 1600px) {
 
     .navbar a {
         margin-left: 30px;
     }
+
     .imgLogo {
-        width: 150px;
-        height: 70px;
+        width: 175px;
+        height: 85px;
     }
-    .col2{
+
+    .col2 {
         margin-left: 30px;
     }
-    .col2 p{
+
+    .col2 p {
         font-size: x-large;
         font-style: italic;
         font-family: Quicksand;
         color: rgba(255, 255, 255, 0.555);
     }
-    .row1{
+
+    .row1 {
         height: 15vh;
     }
 }
-
