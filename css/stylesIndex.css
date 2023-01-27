@@ -1,6 +1,11 @@
 body {
 
 }
+@font-face {
+    font-family: Quicksand;
+    src: url("../fonts/Quicksand-Light.otf") format("opentype");
+}
+
 
 /* Estilos contenedor principal de toda la pagina */
 .container-main {
@@ -8,14 +13,15 @@ body {
     height: 100vh;
     background-image: url(../img/bowl.jpg);
     background-size: cover;
-    opacity: 0.9;
 }
 
 /* Estilos de la barra de navegacion de arriba*/
 .navbar {
-    background-color: transparent;
+    background-color: black;
     position: fixed;
     font-size: larger;
+    width: 100vw;
+    padding-right: 20px;
 }
 /* Estilos de la barra desplegada en movil */
 .navbar-nav {
@@ -26,9 +32,30 @@ body {
 
 /* Estilos del logo de la pagina (superior izquierda) */
 .imgLogo {
-    margin-left: 20px;
     width: 100px;
     height: 50px;
+}
+.row1{
+    height: 17vh;
+}
+.row2{
+    height: 33vh;
+}
+.row3{
+    height: 50vh;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.col2 p{
+    font-size: small;
+    font-style: italic;
+    font-family: Quicksand;
+    color: rgba(255, 255, 255, 0.555);
+}
+
+.col3 button{
+    border: 0;
 }
 
 /* MEDIA QUERIES Para Responsive */
@@ -45,9 +72,20 @@ body {
         margin-left: 30px;
     }
     .imgLogo {
-        margin-left: 0px;
         width: 150px;
         height: 70px;
+    }
+    .col2{
+        margin-left: 30px;
+    }
+    .col2 p{
+        font-size: x-large;
+        font-style: italic;
+        font-family: Quicksand;
+        color: rgba(255, 255, 255, 0.555);
+    }
+    .row1{
+        height: 15vh;
     }
 }
 
