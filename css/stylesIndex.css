@@ -31,11 +31,7 @@ body {
     height: 50px;
 }
 
-
-
-/* MEDIA QUERIES
-Para Responsive
-*/
+/* MEDIA QUERIES Para Responsive */
 @media (max-width: 360px){
 
     .container-main {
@@ -46,7 +42,7 @@ Para Responsive
 @media (min-width: 1600px){
 
     .navbar a {
-        margin-left: 25px;
+        margin-left: 30px;
     }
     .imgLogo {
         margin-left: 0px;
