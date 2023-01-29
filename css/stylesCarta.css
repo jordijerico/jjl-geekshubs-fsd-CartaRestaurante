@@ -9,11 +9,13 @@ html,
 body {
     font-family: Quicksand;
 }
+
 /* Estilos contenedor principal de toda la pagina */
 .container-main {
     height: 100%;
     background-color: black;
 }
+
 /* Estilos de la barra de navegacion de arriba*/
 .navbar {
     background-color: black;
@@ -48,24 +50,54 @@ body {
 /* Estilos de la primera row (navbar) */
 .row1 {
     height: 13vh;
-    
+
 }
 
 /* Estilos de la segunda row (Texto descriptivo) */
 .row2 {
-    height: 150vh;
-}
-
-
-/* Estilos de la tercera row (parte inferior pagina)
-.row3 {
-    height: 10vh;
-} */
-
-.carta-izq{
     height: 100%;
 }
 
+/* Estilos al bloque de tarjetas de platos */
+.cartas {
+    margin-left: 10px;
+
+}
+
+/* Estilos de cada tarjeta de cada plato */
+.carta {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin-top: 10px;
+
+}
+
+/* Estilos de la imagen de la tarjeta de cada plato */
+.carta img {
+    width: 45%;
+    height: 5%;
+}
+
+/* Estilos del parrafo de cada tarjeta de cada plato */
+.carta p {
+    font-size: small;
+    color: white;
+}
+
+/* Estilos de los botones de redes sociales */
+.col3 button {
+    border: 0;
+    font-size: small;
+}
+
+/* Estilos del texto "Siguenos en redes sociales" */
+.col3 p {
+    color: rgba(255, 255, 255, 0.753);
+    font-size: small;
+    margin-bottom: 2px
+}
 
 
 
@@ -77,13 +109,30 @@ body {
         margin-left: 30px;
     }
 
+    .carta img {
+        opacity: 0.8;
+    }
+
     .imgLogo {
         width: 175px;
         height: 85px;
     }
 
+    .carta {
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .cartas {
+        margin: 0;
+    }
 
     .row1 {
         height: 15vh;
+    }
+
+    .row2 {
+        height: 100%;
+
     }
 }
