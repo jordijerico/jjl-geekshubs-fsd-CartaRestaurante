@@ -1,0 +1,119 @@
+/* Carga de fuente externa */
+@font-face {
+    font-family: Quicksand;
+    src: url("../fonts/Quicksand-Light.otf") format("opentype");
+}
+
+/* Paso la fuente a todo el documento */
+html,
+body {
+    font-family: Quicksand;
+}
+
+/* Estilos contenedor principal de toda la pagina */
+.container-main {
+    height: 100%;
+    background-color: black;
+}
+
+/* Estilos del navbar desplegada en movil */
+.navbar-nav {
+    text-align: center;
+    font-size: large;
+    font-weight: 100;
+}
+
+/* Estilos de la barra de navegacion de arriba*/
+.navbar {
+    background-color: black;
+    position: fixed;
+    font-size: larger;
+    width: 100vw;
+    padding-right: 20px;
+    padding-left: 5px;
+    margin-left: -12px;
+    z-index: 1;
+
+}
+
+
+/* Estilos de los links del navbar desplegable */
+.navbar-nav a {
+    margin-top: 15px;
+}
+
+/* Estilos del logo de la pagina (superior izquierda) */
+.imgLogo {
+    width: 100px;
+    height: 50px;
+}
+
+/* Estilos de la primera row (navbar) */
+.row1 {
+    height: 13vh;
+
+}
+
+/* Estilos apartado de informacion de contacto */
+.info {
+    color: white;
+    text-align: center;
+}
+
+/* Estilos del formulario */
+form{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+form label{
+    margin-top:10px
+}
+
+.inputform{
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+.row4{
+
+}
+
+
+/* Media query para PC ordenador >1600px */
+@media (min-width: 1600px) {
+
+    .navbar a {
+        margin-left: 30px;
+    }
+
+    .carta img {
+        opacity: 0.8;
+    }
+
+    .imgLogo {
+        width: 175px;
+        height: 85px;
+    }
+
+    .carta {
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .cartas {
+        margin: 0;
+    }
+
+    .row1 {
+        height: 15vh;
+    }
+
+    .row2 {
+        height: 100%;
+
+    }
+}
