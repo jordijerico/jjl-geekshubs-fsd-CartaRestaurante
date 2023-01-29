@@ -84,7 +84,7 @@ body {
     margin-bottom: 2px
 }
 
-/* MEDIA QUERIES Para Responsive */
+/* MEDIA QUERIES PARA RESPONSIVE */
 
 /* Media query para Nexus 5 , 360px */
 @media (max-width: 360px) {
@@ -96,7 +96,7 @@ body {
 
 /* Media query para ampliar un poco el tamaño de la letra conforme 
 se va aumentando la resolucion del dispositivo. 
-Permite un flujo del tamaño de letra mas óptimo del párrafo principal
+Permite un flujo del tamaño de letra del párrafo principal mas óptimo
 */
 @media (min-width: 768px) {
 

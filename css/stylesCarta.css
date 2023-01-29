@@ -11,7 +11,7 @@ body {
 }
 /* Estilos contenedor principal de toda la pagina */
 .container-main {
-    height: 100vh;
+    height: 300vh;
     background-color: black;
 }
 /* Estilos de la barra de navegacion de arriba*/
@@ -20,7 +20,8 @@ body {
     position: fixed;
     font-size: larger;
     width: 100vw;
-    padding-right: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 /* Estilos del navbar desplegada en movil */
@@ -43,5 +44,35 @@ body {
 
 /* Estilos de la primera row (navbar) */
 .row1 {
-    height: 14vh;
+    height: 13vh;
+    
+}
+
+/* Estilos de la segunda row (Texto descriptivo) */
+.row2 {
+    height: 150vh;
+}
+
+/* Estilos de la tercera row (parte inferior pagina) */
+.row3 {
+    height: 10vh;
+}
+
+
+/* Media query para PC ordenador >1600px */
+@media (min-width: 1600px) {
+
+    .navbar a {
+        margin-left: 30px;
+    }
+
+    .imgLogo {
+        width: 175px;
+        height: 85px;
+    }
+
+
+    .row1 {
+        height: 15vh;
+    }
 }
