@@ -17,13 +17,25 @@ Este proyecto requería la creación de un sitio web responsive de un local con 
 En este caso yo he realizado una carta de un restaurante de Ramen llamado Anteiku, un lugar ubicado en el centro de Madrid donde podrá degustar uno de los mejores Ramen de España. Estructurada en 3 ventanas diferentes que a continuación paso a explicar.
 
 * Se ha estructurado de la siguiente manera:
-    - Una ventana principal donde podrá ver una descripción del lugar, un menú de navegación y un apartado de redes sociales.
-    SCREENSHOT MOVIL Y PC (POR ACTUALIZAR)
-    - Una ventana de la carta del restaurante donde podrá ver los diferentes tipos de Ramen que se sirven en el establecimiento con sus respectivos nombres, imagen, descripción y precios. Además dispondrá también de un menú de navegación y apartado de redes sociales.
-    SCREENSHOT MOVIL Y PC (POR ACTUALIZAR)
-    - Una ventana de contacto donde podrá ver las diferentes maneras de ponerse en contacto con el restaurante (Telefóno, horario, mapa). Además de un formulario de contacto. También dispondrá de un menú de navegación y el apartado de redes sociales.
-    SCREENSHOT MOVIL Y PC (POR ACTUALIZAR)
+    - Una ventana principal donde podrá ver una descripción del lugar, un menú de navegación y un apartado de redes sociales.  
+    IMAGEN MOVIL
+    ![Alt text](img/CapturaMainMovil.png)
 
+    IMAGEN PC
+
+    - Una ventana de la carta del restaurante donde podrá ver los diferentes tipos de Ramen que se sirven en el establecimiento con sus respectivos nombres, imagen, descripción y precios. Además dispondrá también de un menú de navegación y apartado de redes sociales.
+    IMAGEN MOVIL
+    ![Alt text](img/CapturaMenuMovil.png) 
+    ![Alt text](img/CapturaMenuMovil2.png)
+    
+    IMAGEN PC
+
+    - Una ventana de contacto donde podrá ver las diferentes maneras de ponerse en contacto con el restaurante (Telefóno, horario, mapa). Además de un formulario de contacto. También dispondrá de un menú de navegación y el apartado de redes sociales.
+    IMAGEN MOVIL
+    ![Alt text](img/CapturaContactoMovil.png)
+    ![Alt text](img/CapturaContactoMovil2.png)
+
+    IMAGEN PC
 
 
 ### REQUISITOS
@@ -52,8 +64,9 @@ En este caso yo he realizado una carta de un restaurante de Ramen llamado Anteik
 * Los componentes principales utilizados y modificados son:
 
     - Contenedores principales subdivididos en rows y a su vez en columnas modificados para su correcta adaptación responsive.
+    - Navbar propio de bootstrap modificado acorde al restaurante.
     - Cards propias de bootstrap para los platos modificados para contener una imagen y texto.
-    - Formulario de contacto y un iframe de un mapa del sitio con Google Maps.
+    - Formulario de contacto propio de bootstrap y un iframe de un mapa del sitio con Google Maps.
     
 
 
