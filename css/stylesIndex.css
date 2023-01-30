@@ -75,7 +75,7 @@
 /* MEDIA QUERIES PARA RESPONSIVE */
 
 /* Media query para Nexus 5 , 360px */
-@media (max-width: 400px) {
+@media (max-width: 360px) {
 
     .container-main {
         background-image: url(../img/bowl360px.jpg);
