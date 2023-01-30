@@ -61,7 +61,7 @@ body {
 }
 
 /* Estilos del formulario */
-form{
+form {
     color: white;
     display: flex;
     align-items: center;
@@ -69,18 +69,32 @@ form{
     text-align: center;
 
 }
-form label{
-    margin-top:10px
+
+form label {
+    margin-top: 10px
 }
 
-.inputform{
+.inputform {
     margin-top: 10px;
     background-color: rgba(255, 255, 255, 0.719);
 }
 
-.row4{
 
+
+
+/* Estilos de los botones de redes sociales */
+.col5 button {
+    border: 0;
+    font-size: small;
 }
+
+/* Estilos del texto "Siguenos en redes sociales" */
+.col5 p {
+    color: rgba(255, 255, 255, 0.753);
+    font-size: small;
+    margin-bottom: 2px
+}
+
 
 
 /* Media query para PC ordenador >1600px */
@@ -114,6 +128,18 @@ form label{
 
     .row2 {
         height: 100%;
+    }
 
+    fieldset{
+        width: 45%;
+    }
+    .inputform {
+    
+        margin-top: 10px;
+        background-color: rgba(255, 255, 255, 0.719);
+    }
+    iframe{
+        width: 50%;
+    height: 50vh;
     }
 }
