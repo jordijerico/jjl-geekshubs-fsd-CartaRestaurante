@@ -1,0 +1,11 @@
+/* Carga de fuente externa */
+@font-face {
+    font-family: Quicksand;
+    src: url("../fonts/Quicksand-Light.otf") format("opentype");
+}
+
+/* Paso la fuente a todo el documento */
+html,
+body {
+    font-family: Quicksand;
+}

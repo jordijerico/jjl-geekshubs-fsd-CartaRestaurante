@@ -1,14 +1,4 @@
-/* Carga de fuente externa */
-@font-face {
-    font-family: Quicksand;
-    src: url("../fonts/Quicksand-Light.otf") format("opentype");
-}
 
-/* Paso la fuente a todo el documento */
-html,
-body {
-    font-family: Quicksand;
-}
 
 /* Estilos contenedor principal de toda la pagina */
 .container-main {
@@ -33,7 +23,6 @@ body {
     padding-left: 5px;
     margin-left: -12px;
     z-index: 1;
-
 }
 
 
