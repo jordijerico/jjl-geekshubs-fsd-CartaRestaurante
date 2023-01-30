@@ -2,113 +2,75 @@
 
 ## CONTENIDO
    
-* Introduction
-* Requirements
-* Recommended
-* Installation
-* Configuration
-* Troubleshooting
-* FAQ
-* Maintainers
+* Introducción
+* Requisitos
+* Tecnologías utilizadas
+* Componentes utilizados y modificados
+* Posibles problemas
+* Autores
 * Licencias
 
 
 ### INTRODUCCIÓN
 
-The Administration Menu module displays the entire administrative menu tree
-(and most local tasks) in a drop-down menu, providing administrators one- or
-two-click access to most pages.  Other modules may also add menu links to the
-menu using hook_admin_menu_output_alter().
+Este proyecto requería la creación de un sitio web responsive de un local con su correspondiente presentación,  carta de platos y sitio de contacto.
+En este caso yo he realizado una carta de un restaurante de Ramen llamado Anteiku, un lugar ubicado en el centro de Madrid donde podrá degustar uno de los mejores Ramen de España. Estructurada en 3 ventanas diferentes que a continuación paso a explicar.
+
+* Se ha estructurado de la siguiente manera:
+    - Una ventana principal donde podrá ver una descripción del lugar, un menú de navegación y un apartado de redes sociales.
+    SCREENSHOT MOVIL Y PC (POR ACTUALIZAR)
+    - Una ventana de la carta del restaurante donde podrá ver los diferentes tipos de Ramen que se sirven en el establecimiento con sus respectivos nombres, imagen, descripción y precios. Además dispondrá también de un menú de navegación y apartado de redes sociales.
+    SCREENSHOT MOVIL Y PC (POR ACTUALIZAR)
+    - Una ventana de contacto donde podrá ver las diferentes maneras de ponerse en contacto con el restaurante (Telefóno, horario, mapa). Además de un formulario de contacto. También dispondrá de un menú de navegación y el apartado de redes sociales.
+    SCREENSHOT MOVIL Y PC (POR ACTUALIZAR)
+
 
 
 ### REQUISITOS
 
-This module requires the following modules:
-
-* Views (https://www.drupal.org/project/views)
-* Panels (https://www.drupal.org/project/panels)
-
-
-### RECOMENDACIONES
-
-* Markdown filter (https://www.drupal.org/project/markdown):
-  When enabled, display of the project's README.md help will be rendered
-  with markdown.
+* Los requisitos para el uso de este proyecto son los siguientes:
+* Un dispotivo, como por ejemplo: móvil, tablet, ordenador..
+* Conexión a internet
+* Un navegador (Google Chrome, Mozilla Firefox, Opera...)
 
 
-### INSTALACIÓN
+
+### TECNOLOGÍAS UTILIZADAS
+
+* Este proyecto se ha realizado utlizando:
+    - VsCode: como editor de texto
+    - Google Chrome: para la comprobación del funcionamiento utilizando las herramientas de desarrollador
+    - HTML5
+    - CSS3
+    - BOOTSTRAP 5
+    - GITHUB para el control de versiones y guardado del proyecto
+    - Markdown filter para la elaboración del Readme
+
+
+### COMPONENTES UTLIZADOS Y MODIFICADOS
  
-* Install as you would normally install a contributed Drupal module. Visit
-  https://www.drupal.org/documentation/install/modules-themes/modules-7 for
-  further information.
+* Los componentes principales utilizados y modificados son:
 
-* You may want to disable Toolbar module, since its output clashes with
-  Administration Menu.
-
-
-### CONFIGURACION
- 
-* Configure the user permissions in Administration » People » Permissions:
-
-  - Use the administration pages and help (System module)
-
-    The top-level administration categories require this permission to be
-    accessible. The administration menu will be empty unless this permission
-    is granted.
-
-  - Access administration menu
-
-    Users with this permission will see the administration menu at the top of
-    each page.
-
-  - Display Drupal links
-
-    Users with this permission will receive links to drupal.org issue queues for
-    all enabled contributed modules. The issue queue links appear under the
-    administration menu icon.
-
-* Customize the menu settings in Administration » Configuration and modules »
-  Administration » Administration menu.
-
-* To prevent administrative menu items from appearing twice, you may hide the
-  "Management" menu block.
-
+    - Contenedores principales subdivididos en rows y a su vez en columnas modificados para su correcta adaptación responsive.
+    - Cards propias de bootstrap para los platos modificados para contener una imagen y texto.
+    - Formulario de contacto y un iframe de un mapa del sitio con Google Maps.
+    
 
 
 ### POSIBLES PROBLEMAS
 
-* If the menu does not display, check the following:
+En la versión actual del proyecto no se han encontrado posibles problemas.
+Si existe algún problema, o usted como usuario detecta alguno, póngase en contacto con el autor de este. Lo encontrará en la sección de autoría más abajo.
 
-  - Are the "Access administration menu" and "Use the administration pages and
-    help" permissions enabled for the appropriate roles?
-
-  - Does html.tpl.php of your theme output the $page_bottom variable?
-
-
-### FAQ
-
-Q: I enabled "Aggregate and compress CSS files", but admin_menu.css is still
-   there. Is this normal?
-
-A: Yes, this is the intended behavior. the administration menu module only loads
-   its stylesheet as needed (i.e., on page requests by logged-on, administrative
-   users).
 
 
 ### AUTORES
 
-Current maintainers:
+Autores actuales:
 
-* Daniel F. Kudwien (sun) - https://www.drupal.org/user/54136
-* Peter Wolanin (pwolanin) - https://www.drupal.org/user/49851
-* Stefan M. Kudwien (smk-ka) - https://www.drupal.org/user/48898
-* Dave Reid (Dave Reid) - https://www.drupal.org/user/53892
-
-This project has been sponsored by:
-
-* UNLEASHED MIND
-  Specialized in consulting and planning of Drupal powered sites, UNLEASHED MIND
-  offers installation, development, theming, customization, and hosting to get
-  you started. Visit https://www.unleashedmind.com for more information.
+* Jordi Jericó López - https://www.linkedin.com/in/jordi-jerico-lopez-15950918a/
 
 ### LICENCIAS
+
+* MIT License
+* Copyright (c) 2023 Jordi Jerico
