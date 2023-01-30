@@ -64,6 +64,11 @@ form label {
     margin-top: 10px;
     background-color: rgba(255, 255, 255, 0.719);
 }
+/* Estilos boton del formulario */
+.boton{
+    background-color: grey;
+    border-color: black;
+}
 
 /* Estilos de los botones de redes sociales */
 .col5 button {
@@ -75,7 +80,7 @@ form label {
 .col5 p {
     color: rgba(255, 255, 255, 0.753);
     font-size: small;
-    margin-bottom: 2px
+    margin-bottom: 2px;
 }
 
 
@@ -128,6 +133,10 @@ form label {
     .inputform {
         margin-top: 10px;
         background-color: rgba(255, 255, 255, 0.719);
+    }
+
+    form button {
+        width: 10vw;
     }
 
     /* Estilos del iframe del mapa */

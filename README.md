@@ -20,7 +20,7 @@ En este caso yo he realizado una carta de un restaurante de Ramen llamado Anteik
     - Una ventana principal donde podrá ver una descripción del lugar, un menú de navegación y un apartado de redes sociales.  
 
     ![Alt text](img/CapturaMainMovil.png)
-
+ 
 
     - Una ventana de la carta del restaurante donde podrá ver los diferentes tipos de Ramen que se sirven en el establecimiento con sus respectivos nombres, imagen, descripción y precios. Además dispondrá también de un menú de navegación y apartado de redes sociales.
 
