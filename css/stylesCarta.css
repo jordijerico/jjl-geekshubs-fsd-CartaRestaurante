@@ -103,19 +103,20 @@ body {
 /* Media query para PC ordenador >1600px */
 @media (min-width: 1600px) {
 
+    /* Estilos de los links del navbar */
     .navbar a {
         margin-left: 30px;
     }
-
+    /* Estilos de la imagen de los cards de la carta */
     .carta img {
         opacity: 0.8;
     }
-
+     /* Estilos del logo de la pagina */
     .imgLogo {
         width: 175px;
         height: 85px;
     }
-
+    /* Estilos del cuerpo de las cards del menu */
     .carta {
         width: 100%;
         background-color: transparent;
@@ -124,11 +125,11 @@ body {
     .cartas {
         margin: 0;
     }
-
+    /* Estilos del primer row (navbar) */
     .row1 {
         height: 15vh;
     }
-
+     /* Estilos del row de los parrafos */
     .row2 {
         height: 100%;
 

@@ -112,26 +112,27 @@ Permite un flujo del tamaño de letra del párrafo principal mas óptimo
 /* Media query para PC ordenador >1600px */
 @media (min-width: 1600px) {
 
+    /* Estilos de los links del navbar */
     .navbar a {
         margin-left: 30px;
     }
-
+    /* Estilos del logo de la pagina */
     .imgLogo {
         width: 175px;
         height: 85px;
     }
-
+    /* Estilos de la col del parrafo descriptivo */
     .col2 {
         margin-left: 30px;
     }
-
+    /* Estilos del parrafo de la col del parrafo descriptivo */
     .col2 p {
         font-size: x-large;
         font-style: italic;
         font-family: Quicksand;
         color: rgba(255, 255, 255, 0.555);
     }
-
+    /* Estilos del navbar */
     .row1 {
         height: 15vh;
     }
