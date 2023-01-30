@@ -4,6 +4,7 @@
     background-color: black;
 }
 
+
 /* Estilos de la barra de navegacion de arriba*/
 .navbar {
     background-color: black;
@@ -47,6 +48,7 @@
 /* Estilos al bloque de tarjetas de platos */
 .cartas {
     margin-left: 10px;
+    display: contents;
 }
 
 /* Estilos de cada tarjeta de cada plato */

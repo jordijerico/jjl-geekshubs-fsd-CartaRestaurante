@@ -9,3 +9,7 @@ html,
 body {
     font-family: Quicksand;
 }
+
+.negrita{
+    font-weight:900;
+}
